@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <servlet>
+        <servlet-name>AddContactController</servlet-name>
+        <servlet-class>Controller.AddContactController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddGroupController</servlet-name>
+        <servlet-class>Controller.AddGroupController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditContactController</servlet-name>
+        <servlet-class>Controller.EditContactController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteContactController</servlet-name>
+        <servlet-class>Controller.DeleteContactController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddContactController</servlet-name>
+        <url-pattern>/AddContactController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddGroupController</servlet-name>
+        <url-pattern>/AddGroupController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditContactController</servlet-name>
+        <url-pattern>/EditContactController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteContactController</servlet-name>
+        <url-pattern>/DeleteContactController</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>DetailsController</servlet-name>
+        <servlet-class>com.controller.DetailsController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HomeController</servlet-name>
+        <servlet-class>com.controller.HomeController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InfoController</servlet-name>
+        <servlet-class>com.controller.InfoController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MenuController</servlet-name>
+        <servlet-class>com.controller.MenuController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DetailsController</servlet-name>
+        <url-pattern>/DetailsController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HomeController</servlet-name>
+        <url-pattern>/HomeController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InfoController</servlet-name>
+        <url-pattern>/InfoController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MenuController</servlet-name>
+        <url-pattern>/MenuController</url-pattern>
+    </servlet-mapping>
+</web-app>
