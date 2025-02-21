@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KhuNghiDuong/KhuNghiDuong.iml" filepath="$PROJECT_DIR$/KhuNghiDuong/KhuNghiDuong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB.iml" filepath="$PROJECT_DIR$/LAB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB_Bank/LAB_Bank.iml" filepath="$PROJECT_DIR$/LAB_Bank/LAB_Bank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB_Student/LAB_Student.iml" filepath="$PROJECT_DIR$/LAB_Student/LAB_Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB_User/LAB_User.iml" filepath="$PROJECT_DIR$/LAB_User/LAB_User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RESORT/RESORT.iml" filepath="$PROJECT_DIR$/RESORT/RESORT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>

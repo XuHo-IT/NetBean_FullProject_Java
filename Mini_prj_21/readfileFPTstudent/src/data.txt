@@ -1,0 +1,6 @@
+ID;Name;Age;Major;GPA
+DE1;Bao Kha;23;AI;7.1
+DE2;Dang Thanh;19;SE;9.0
+DE3;Thanh Viet;20;SE;8.1
+DE4;Anh Tuan;22;SE;8.0
+DE5;Nguyen Han;21;SE;7.8

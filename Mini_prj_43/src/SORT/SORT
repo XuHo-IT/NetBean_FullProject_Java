@@ -1,0 +1,139 @@
+              1.Bubble Sort:
+Benefits:
+Simple implementation.
+No additional memory usage (in-place sorting).
+Drawbacks:
+Inefficient for large datasets, as it has a time complexity of O(n^2).
+Performs poorly on already sorted or nearly sorted arrays.
+
+              2.Selection Sort:
+Benefits:
+Simple to implement.
+In-place sorting.
+Drawbacks:
+Inefficient for large datasets, as it has a time complexity of O(n^2).
+Performs poorly on already sorted or nearly sorted arrays.
+Insertion Sort:
+
+                3.Benefits:
+Efficient for small datasets or nearly sorted arrays.
+In-place sorting.
+Drawbacks:
+Inefficient for large datasets, as it has a time complexity of O(n^2).
+Performs poorly on large unsorted arrays.
+
+                 4.Merge Sort:
+Benefits:
+Stable sorting algorithm.
+Efficient for large datasets, with a time complexity of O(n log n).
+Guaranteed performance, regardless of the input data.
+Drawbacks:
+Requires additional memory space for the merge step.
+Not in-place sorting (requires additional memory).
+
+                        5.Quick Sort:
+Benefits:
+Efficient for large datasets, with an average time complexity of O(n log n).
+In-place sorting.
+Drawbacks:
+Less predictable performance, as worst-case time complexity can be O(n^2) (though rare with randomized pivot selection or median-of-three pivot).
+Not stable sorting.
+
+                         6.Heap Sort:
+Benefits:
+Efficient for large datasets, with a time complexity of O(n log n).
+In-place sorting.
+Drawbacks:
+Not stable sorting.
+More complex to implement compared to some other sorting algorithms.
+
+                          7.Counting Sort:
+Benefits:
+Efficient for sorting integers within a specific range.
+Linear time complexity O(n + k), where k is the range of the input.
+Stable sorting.
+Drawbacks:
+Requires additional memory space proportional to the range of the input data.
+Not suitable for sorting data with negative values or non-integer values.
+
+                          8.Radix Sort:
+Benefits:
+Efficient for sorting integers or strings with fixed length.
+Linear time complexity O(nk), where n is the number of elements and k is the number of digits or characters.
+Stable sorting.
+Drawbacks:
+Not suitable for sorting data with variable length.
+Requires additional memory space proportional to the number of digits or characters in the input.
+
+
+                    Time Complexity:
+   Best Case:
+Counting Sort, Radix Sort: O(n + k)
+Merge Sort, Heap Sort, Quick Sort: O(n log n)
+Bubble Sort, Selection Sort, Insertion Sort: O(n^2)
+   Average Case:
+Merge Sort, Heap Sort, Quick Sort: O(n log n)
+Bubble Sort, Selection Sort, Insertion Sort: O(n^2)
+Counting Sort, Radix Sort: O(n + k)
+   Worst Case:
+Merge Sort, Heap Sort: O(n log n)
+Quick Sort: O(n^2)
+Bubble Sort, Selection Sort, Insertion Sort: O(n^2)
+Counting Sort, Radix Sort: O(n + k)
+
+
+                        Space Complexity:
+       In-Place Sorting:
+Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Heap Sort.
+       Not In-Place Sorting:
+Merge Sort, Counting Sort, Radix Sort.
+
+
+                           Stability: --Sự ổn định--
+Stable Sorting:
+Merge Sort, Counting Sort, Radix Sort.
+Unstable Sorting:
+Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Heap Sort.
+
+
+                          Performance on Small Datasets:
+Efficient for Small Datasets:
+Insertion Sort, Bubble Sort.
+
+
+                         Performance on Large Datasets:
+Efficient for Large Datasets:
+Merge Sort, Heap Sort, Quick Sort (with good pivot selection).
+
+
+                         Performance on Nearly Sorted Data:
+Efficient for Nearly Sorted Data:
+Insertion Sort.
+
+
+                          Performance on Reverse Sorted Data:
+Efficient for Reverse Sorted Data:
+Heap Sort, Merge Sort.
+
+
+                          Ease of Implementation: Dễ thực hiện
+Simple Implementation:
+Bubble Sort, Selection Sort, Insertion Sort, Counting Sort, Radix Sort.
+Moderate Implementation:
+Quick Sort.
+Complex Implementation:
+Merge Sort, Heap Sort.
+
+
+                            Predictability: Khả năng dự đoán
+Predictable Performance:
+Merge Sort, Counting Sort, Radix Sort.
+Less Predictable Performance:
+Quick Sort (depends on pivot selection).
+
+
+                            Additional Notes:Ghi chú bổ sung
+Specialized Use Cases:
+Counting Sort, Radix Sort (for integer sorting with specific constraints).
+Hybrid Algorithms:
+Introsort (a variant of Quick Sort combined with Heap Sort or Insertion Sort for better worst-case behavior).

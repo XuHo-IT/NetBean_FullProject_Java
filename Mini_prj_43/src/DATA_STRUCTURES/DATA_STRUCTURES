@@ -1,0 +1,102 @@
+                                   1.Arrays:
+Time Complexity:
+Access: O(1)
+Search (unsorted): O(n)
+Search (sorted): O(log n) - Binary Search
+Insertion (at end): O(1)
+Insertion (at arbitrary position): O(n)
+Deletion (at end): O(1)
+Deletion (at arbitrary position): O(n)
+Space Complexity: O(n)
+Use Cases: Storing elements with constant-time access.
+
+
+
+                           2.Linked Lists:
+Time Complexity:
+Access: O(n)
+Search: O(n)
+Insertion (at beginning): O(1)
+Insertion (at arbitrary position): O(n)
+Deletion (at beginning): O(1)
+Deletion (at arbitrary position): O(n)
+Space Complexity: O(n)
+Use Cases: Dynamic memory allocation, implementation of stacks, queues, etc.
+
+
+                             3.Stacks:
+Time Complexity:
+Push: O(1)
+Pop: O(1)
+Peek: O(1)
+Space Complexity: O(n)
+Use Cases: Function call stack, expression evaluation, undo mechanisms.
+
+
+
+                              4.Queues:
+Time Complexity:
+Enqueue: O(1)
+Dequeue: O(1)
+Peek: O(1)
+Space Complexity: O(n)
+Use Cases: Task scheduling, breadth-first search, print queue.
+
+
+
+
+                              5.Trees:
+Time Complexity:
+Search (BST): O(log n)
+Insertion (BST): O(log n)
+Deletion (BST): O(log n)
+Space Complexity: O(n)
+Use Cases: Binary Search Trees (BSTs) for efficient searching, balanced trees (AVL, Red-Black) for maintaining balance.
+
+
+
+                              6.Hash Tables:
+Time Complexity:
+Insertion: O(1) (amortized)
+Deletion: O(1) (amortized)
+Search: O(1) (amortized)
+Space Complexity: O(n)
+Use Cases: Fast key-value lookups, storing unique elements, symbol tables.
+
+
+
+                               7.Heaps:
+Time Complexity:
+Insertion: O(log n)
+Deletion: O(log n)
+Find Min/Max: O(1)
+Space Complexity: O(n)
+Use Cases: Priority queues, heap sort.
+
+
+
+                                8.Graphs:
+Time Complexity:
+Search (DFS, BFS): O(V + E)
+Shortest Path (Dijkstra): O((V + E) log V) with Fibonacci heap, O(V^2) with array.
+Space Complexity: O(V + E)
+Use Cases: Network routing, social networks, graph algorithms.
+
+
+
+                                 9.Tries:
+Time Complexity:
+Insertion: O(n)
+Search: O(n)
+Prefix Search: O(k), where k is the length of the prefix.
+Space Complexity: O(n)
+Use Cases: Dictionary, auto-complete systems.
+
+
+
+                            10.Disjoint Sets (Union-Find):
+Time Complexity:
+Union: O(log n)
+Find: O(log n) (with path compression and union by rank)
+Space Complexity: O(n)
+Use Cases: Kruskal's minimum spanning tree algorithm, connected components.

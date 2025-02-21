@@ -1,0 +1,15 @@
+com\entity\BookDtls.class
+com\mycompany\ebook\apps\resources\JakartaEE10Resource.class
+com\admin\servlet\AddBook.class
+com\user\servlet\Logout.class
+com\DAO\UserDAO.class
+com\admin\servlet\BookDelete.class
+com\DAO\UserDAOImpl.class
+com\DAO\BookDAOImpl.class
+com\DB\DBConnect.class
+com\entity\User.class
+com\user\servlet\RegisterServlet.class
+com\admin\servlet\EditBook.class
+com\DAO\BookDAO.class
+com\user\servlet\Login.class
+com\mycompany\ebook\apps\JakartaRestConfiguration.class

@@ -1,0 +1,27 @@
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <form action="Controller" method="POST">
+            First:<input type="text" name="First" placeholder="FirstNumber"/>
+            <br><br>
+            Second:<input type="text" name="Second" placeholder="SecondNumber"/>
+            <br><br>
+            <label for="Operator">Operator:</label>
+            <select id="Operator" name="Operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Compute" placeholder="Compute">
+            <br><br>
+            Result:<input type="text" name="Result" placeholder="Result"/>
+        </form>
+    </body>
+</html>
+

@@ -1,0 +1,5 @@
+model\Student.class
+com\mycompany\workshop2_bymaven\resources\JakartaEE10Resource.class
+servlet\Servlet.class
+model\StudentList.class
+com\mycompany\workshop2_bymaven\JakartaRestConfiguration.class
